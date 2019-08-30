@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace mswanson1730ex1b
+namespace mswanson1c1
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace mswanson1730ex1b
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmInvoiceTotal());
+            Application.Run(new frmFoodTruck());
         }
     }
 }

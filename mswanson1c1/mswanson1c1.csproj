@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2BDBF640-3CD2-44A2-913B-75E06DEFAE05}</ProjectGuid>
+    <ProjectGuid>{5F59F624-5806-4A5A-AC87-99DB43F8A69A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>mswanson1730ex1b</RootNamespace>
-    <AssemblyName>mswanson1730ex1b</AssemblyName>
+    <RootNamespace>mswanson1c1</RootNamespace>
+    <AssemblyName>mswanson1c1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmInvoiceTotal.cs">
+    <Compile Include="FrmFoodTruck.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmInvoiceTotal.Designer.cs">
-      <DependentUpon>frmInvoiceTotal.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>FrmFoodTruck.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmInvoiceTotal.resx">
-      <DependentUpon>frmInvoiceTotal.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>FrmFoodTruck.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
